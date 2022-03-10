@@ -1,42 +1,23 @@
+body {
+ margin: 0;
+ }
+ .page-header {
+ display: grid;
+ grid-template-columns: auto 160px;
+ padding: 30px 20px;
+ padding-bottom: 70px;
+}
 
-body{
-  background-color: #f8f8f8
+.days-list {
+ margin: 0;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 30px 20px;
+ padding: 25px 20px;
+ padding-bottom: 40px;
 }
-h1{
-  color; #00ffff
-  font-size: 18px;
-  font-weight: 400;
-  background-color: #eaeaea
 
-}
-p1{
-  color: #707070;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 16px;
-}
-p3{
-  color: #484343;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-#navbar a {
-  background-color: #949494;
-  color: #fff;
-  padding: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  border-left: 5px solid #33ADFF;
-  display: block;
-}
-#navbar li {
-  border-left: 10px solid #666;
-  border-bottom: 1px solid #666;
-  list-style-type: none;
-}
-img{
-
-  border-radius: 10px 20px;
+.page-footer {
+ padding: 20px;
+ padding-top: 10px;
 }
