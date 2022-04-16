@@ -1,23 +1,23 @@
 body {
- margin: 0;
+ margin: 0; /*внешние отступы/*
  }
- .page-header {
- display: grid;
- grid-template-columns: auto 160px;
- padding: 30px 20px;
- padding-bottom: 70px;
+ .page-header { /* шапка странциы /*
+ display: grid; /* блоки гриды /*
+ grid-template-columns: auto 160px; /* количество колонок в сетке /*
+ padding: 30px 20px; /* внутренние отступы /*
+ padding-bottom: 70px; /* значение поля от нижнего края /*
 }
 
 .days-list {
  margin: 0;
  display: grid;
  grid-template-columns: 1fr 1fr;
- gap: 30px 20px;
+ gap: 30px 20px; /* расстояние между строками и столбцами /*
  padding: 25px 20px;
  padding-bottom: 40px;
 }
 
-.page-footer {
+.page-footer { /* подвал сайта /*
  padding: 20px;
- padding-top: 10px;
+ padding-top: 10px; /* внешний отступ сверху /*
 }
