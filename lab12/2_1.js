@@ -1,8 +1,8 @@
-var temp = 20;
-var itsRaining = false;
-var minutes;
+let temperature = prompt();
+let itsRaining = false;
+let minutes;
 
-if (itsRaining = true) {
+if (itsRaining) {
 minutes=0;
 }
 else if (temperature < 0 && temperature > 35) {
