@@ -1,5 +1,5 @@
-var p1 = 0.35
-var p2 = 0.45
+let p1 = 0.35
+let p2 = 0.45
 let calculateSalary = function(first){
     if (first < 100000){
       second = first - (first * p1);
