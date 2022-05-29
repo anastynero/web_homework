@@ -1,5 +1,5 @@
-var getPrice = function(time, isQuickly) {
-    var rate = 1500;
+let getPrice = function(time, isQuickly) {
+    let rate = 1500;
     if (isQuickly) {
       time /= 2;
       rate *= 2.5;
