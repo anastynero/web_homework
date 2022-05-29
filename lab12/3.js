@@ -1,8 +1,8 @@
-var time = prompt('Введите время');
+let time = prompt('Введите время');
 
-var goToDairy = false;
-var goToStore = false;
-var goToMarket = false;
+let goToDairy = false;
+let goToStore = false;
+let goToMarket = false;
 
 if (time >= 8 && time < 19 && time != 13) {
   goToDairy = true;
