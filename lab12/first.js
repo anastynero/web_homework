@@ -1,5 +1,5 @@
-var age = 2;
-var ageGroup;
+let age = prompt();
+let ageGroup;
 
 if (age <= 1){
   ageGroup = 'Щенки';
