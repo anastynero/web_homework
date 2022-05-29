@@ -1,6 +1,6 @@
-var temperature = 20;
-var isRaining = false;
-var minutes = 0;
+let temperature = prompt();
+let isRaining = false;
+let minutes = 0;
 
 if ((10 <= temperature && temperature < 15) && !isRaining) {
   minutes = 30;
